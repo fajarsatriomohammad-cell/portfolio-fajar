@@ -2,130 +2,100 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Luxury Personal Portfolio | Fajar</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<title>Luxury Personal Portfolio | Fajar</title>
+<link rel="stylesheet" href="css/base.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-<style>
-body{
-    margin:0;
-    font-family:'Poppins',sans-serif;
-    background: radial-gradient(circle at top,#0f172a,#020617);
-    color:#e2e8f0;
-    overflow-x:hidden;
-}
-
-.hero{
-    padding:150px 20px 80px;
-    text-align:center;
-}
-
-.hero h1{
-    font-size:56px;
-    background:linear-gradient(135deg,#60a5fa,#3b82f6);
-    -webkit-background-clip:text;
-    color:transparent;
-}
-
-.hero p{
-    max-width:700px;
-    margin:20px auto;
-    opacity:.8;
-}
-
-.container{
-    max-width:1100px;
-    margin:auto;
-    padding:60px 20px;
-    text-align:center;
-}
-
-.screenshot img{
-    width:100%;
-    border-radius:20px;
-    box-shadow:0 40px 100px rgba(59,130,246,.25);
-    transition:.6s;
-}
-
-.screenshot img:hover{
-    transform:scale(1.03);
-}
-
-.features{
-    margin-top:60px;
-    background:rgba(255,255,255,.03);
-    padding:40px;
-    border-radius:20px;
-    backdrop-filter:blur(20px);
-}
-
-.cta{
-    margin-top:60px;
-}
-
-.btn{
-    display:inline-block;
-    padding:16px 45px;
-    border-radius:50px;
-    background:linear-gradient(135deg,#3b82f6,#60a5fa);
-    color:white;
-    text-decoration:none;
-    font-weight:600;
-    transition:.4s;
-}
-
-.btn:hover{
-    transform:translateY(-6px);
-    box-shadow:0 20px 60px rgba(59,130,246,.4);
-}
-
-.back{
-    display:block;
-    margin-top:40px;
-    opacity:.6;
-    text-decoration:none;
-    color:#94a3b8;
-}
-</style>
 </head>
-<body>
 
-<section class="hero">
-    <h1>Luxury Personal Portfolio</h1>
-    <p>High-authority personal branding website crafted to build trust within seconds. Designed with premium blue tones, strong typography, and modern micro-interactions.</p>
-</section>
+<body class="detail-page theme-portfolio">
 
 <div class="container">
-    <div class="screenshot">
-        <img src="images/luxury-portfolio.jpg" alt="Portfolio Screenshot">
-    </div>
 
-    <div class="features">
-        <h2>Project Highlights</h2>
-        <p>✔ Executive Visual Identity<br>
-        ✔ Conversion-Focused Layout<br>
-        ✔ Smooth Animation & Interaction<br>
-        ✔ Authority-Based Positioning Strategy</p>
-    </div>
+    <!-- HERO -->
+    <section class="portfolio-hero">
+        <h1>Luxury Personal Branding Experience</h1>
+        <p>
+            A high-authority digital presence crafted to elevate credibility,
+            positioning, and premium perception in under 5 seconds.
+        </p>
+    </section>
 
-    <div class="cta">
-        <h3>Want to Build a Powerful Personal Brand?</h3>
-        <a href="index.html#contact" class="btn">Start Your Project</a>
-    </div>
+    <!-- SHOWCASE IMAGE -->
+    <section>
+        <img src="images/luxury-portfolio.jpg" alt="Luxury Portfolio Screenshot">
+    </section>
 
-    <a href="index.html" class="back">← Back to Main Portfolio</a>
+    <!-- PROJECT DETAILS -->
+    <section class="portfolio-details">
+        <div class="portfolio-grid">
+
+            <div>
+                <h2>Project Overview</h2>
+                <p>
+                    This project was built to demonstrate how strategic design,
+                    typography precision, and cinematic layout can instantly
+                    communicate authority and premium value.
+                </p>
+
+                <p>
+                    The goal was clear: create a website that makes visitors say
+                    “Wow” within the first five seconds.
+                </p>
+            </div>
+
+            <div>
+                <h2>What Was Delivered</h2>
+                <ul>
+                    <li>High-impact hero animation</li>
+                    <li>Luxury dark gradient interface</li>
+                    <li>Authority-focused typography</li>
+                    <li>Mobile-first premium responsiveness</li>
+                    <li>Strategic call-to-action placement</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="portfolio-stats">
+        <div class="stats-grid">
+
+            <div class="stat-box dark">
+                <h3>5s</h3>
+                <p>First Impression Impact</p>
+            </div>
+
+            <div class="stat-box dark">
+                <h3>100%</h3>
+                <p>Premium Positioning</p>
+            </div>
+
+            <div class="stat-box dark">
+                <h3>Global</h3>
+                <p>Design Standard</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="portfolio-cta">
+        <h2>Ready To Build Your Authority Website?</h2>
+
+        <a href="https://wa.me/6281234567890" target="_blank" class="btn-primary">
+            Start Your Project
+        </a>
+
+        <br><br>
+
+        <a href="index.html" class="btn">
+            Back to Main Portfolio
+        </a>
+    </section>
+
 </div>
-
-<script>
-document.querySelector(".hero").style.opacity=0;
-document.querySelector(".hero").style.transform="translateY(40px)";
-setTimeout(()=>{
-document.querySelector(".hero").style.transition="1s";
-document.querySelector(".hero").style.opacity=1;
-document.querySelector(".hero").style.transform="translateY(0)";
-},200);
-</script>
 
 </body>
 </html>

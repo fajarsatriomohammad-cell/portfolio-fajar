@@ -2,161 +2,78 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Vanguard Nexus Consulting | Corporate Profile</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-<style>
-body{
-    margin:0;
-    font-family:'Poppins',sans-serif;
-    background:#f9fbfd;
-    color:#0f172a;
-}
-
-/* HERO */
-.hero{
-    padding:160px 20px 120px;
-    text-align:center;
-    background:linear-gradient(to bottom,#ffffff,#f1f5f9);
-}
-
-.hero h1{
-    font-size:48px;
-    font-weight:600;
-    letter-spacing:-1px;
-    margin-bottom:10px;
-}
-
-.hero p{
-    max-width:600px;
-    margin:auto;
-    color:#64748b;
-}
-
-/* SECTION */
-.section{
-    max-width:1100px;
-    margin:120px auto;
-    padding:0 20px;
-}
-
-.grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:60px;
-    align-items:center;
-}
-
-.grid img{
-    width:100%;
-    border-radius:16px;
-    box-shadow:0 30px 80px rgba(0,0,0,.08);
-}
-
-.text h2{
-    font-size:28px;
-    margin-bottom:20px;
-}
-
-.text p{
-    color:#475569;
-    line-height:1.8;
-}
-
-/* STATS */
-.stats{
-    display:flex;
-    justify-content:space-between;
-    margin-top:60px;
-    text-align:center;
-}
-
-.stats div h3{
-    font-size:32px;
-    margin-bottom:5px;
-}
-
-.stats div span{
-    color:#64748b;
-}
-
-/* CTA */
-.cta{
-    text-align:center;
-    padding:100px 20px;
-    background:#ffffff;
-}
-
-.btn{
-    display:inline-block;
-    padding:16px 50px;
-    border-radius:50px;
-    background:#0f172a;
-    color:white;
-    text-decoration:none;
-    transition:.4s;
-}
-
-.btn:hover{
-    transform:translateY(-5px);
-    box-shadow:0 15px 40px rgba(0,0,0,.2);
-}
-
-.back{
-    display:block;
-    margin-top:30px;
-    color:#64748b;
-    text-decoration:none;
-}
-</style>
+<title>Vanguard Nexus Consulting | Corporate Profile</title>
+<link rel="stylesheet" href="css/base.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
 
-<section class="hero">
-    <h1>Vanguard Nexus Consulting</h1>
-    <p>International Corporate Advisory Firm based in London, specializing in strategic growth and cross-border expansion.</p>
-</section>
+<body class="detail-page theme-corporate">
 
-<section class="section">
-    <div class="grid">
-        <img src="images/corporate-global.jpg" alt="Corporate Screenshot">
-        <div class="text">
-            <h2>About The Company</h2>
-            <p>
-                Vanguard Nexus Consulting works with international enterprises,
-                investors, and executive teams to deliver strategic transformation
-                and sustainable global expansion.
-            </p>
-            <p>
-                The website was crafted with a minimal and executive visual language
-                to reflect authority, clarity, and global credibility.
-            </p>
-        </div>
-    </div>
+<div class="container">
 
-    <div class="stats">
-        <div>
-            <h3>12+</h3>
-            <span>International Clients</span>
-        </div>
-        <div>
-            <h3>8</h3>
-            <span>Countries Served</span>
-        </div>
-        <div>
-            <h3>100%</h3>
-            <span>Executive-Level Branding</span>
-        </div>
-    </div>
-</section>
+    <!-- HERO -->
+    <section class="corp-hero">
+        <h1>Vanguard Nexus Consulting</h1>
+        <p>
+            A global advisory firm partnering with international enterprises,
+            investors, and executive leaders to accelerate strategic transformation.
+        </p>
+    </section>
 
-<section class="cta">
-    <h2>Need a Corporate Website with Global Standard?</h2>
-    <a href="index.html#contact" class="btn">Discuss Your Project</a>
-    <a href="index.html" class="back">← Back to Main Portfolio</a>
-</section>
+    <!-- ABOUT -->
+    <section class="corp-about">
+        <div class="corp-grid">
+
+            <div>
+                <img src="images/corporate-global.jpg" alt="Corporate Office">
+            </div>
+
+            <div>
+                <h2>About The Company</h2>
+                <p>
+                    Vanguard Nexus Consulting works with multinational corporations,
+                    growth-stage ventures, and executive teams to deliver measurable impact.
+                </p>
+
+                <p>
+                    The website was crafted with a minimal executive visual language
+                    to reflect authority, clarity, and global credibility.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="corp-stats">
+        <div class="stats-grid">
+
+            <div class="stat-box">
+                <h3>12+</h3>
+                <p>International Markets</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>8</h3>
+                <p>Countries Served</p>
+            </div>
+
+            <div class="stat-box">
+                <h3>100%</h3>
+                <p>Executive-Level Focus</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="corp-cta">
+        <h2>Build Your Corporate Presence with Authority</h2>
+        <a href="index.html" class="btn">Back to Main Portfolio</a>
+    </section>
+
+</div>
 
 </body>
 </html>
